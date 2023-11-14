@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: db6f9e2b555d55f4d88f386ccc525024
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 40
+      width: 56
+      height: 22
+    spriteID: 05070160fde027c4696db9f9e96976eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 40}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 40
+      width: 56
+      height: 22
+    spriteID: 6969f746f63fb2e4caadf903e63ba0c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 40}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 56
+      height: 22
+    spriteID: 45a49f1dab351c84a8241b064df5431c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 76
+      width: 56
+      height: 22
+    spriteID: 7f3021298751164418619593a7f8332b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 76}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.75000006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 56
+      height: 28
+    spriteID: ab3fbd8749414d749afc4e890f6e8231
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 76
+      width: 56
+      height: 22
+    spriteID: 30386b413c52f804e9781dc8e608e447
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 76}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.75000006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 56
+      height: 28
+    spriteID: 10a84ae80f8fded4eabebb6a453a9fb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 4}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 76
+      width: 56
+      height: 22
+    spriteID: 0f55085350c8e3241a63dac954ef6c03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 76}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.75000006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 4
+      width: 56
+      height: 28
+    spriteID: 91d35d562d0700c43955ff5a5f62158e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 4}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 106
+      width: 56
+      height: 22
+    spriteID: 074fbd2f2fa51e249a192ca7860b2522
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 106}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.75000006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 4
+      width: 56
+      height: 28
+    spriteID: eaec4c60f97a1244986c3e46722e25b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 4}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 106
+      width: 56
+      height: 22
+    spriteID: 7db6978a649f67b47b8ae449119b3642
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 106}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.75000006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 40
+      width: 56
+      height: 28
+    spriteID: 9516c9e23b8c8bf45a850157c2e07781
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 40}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 106
+      width: 56
+      height: 22
+    spriteID: 18e6d5bf2ad87ad4dbbf494f5451bd34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 106}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.75000006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 40
+      width: 56
+      height: 28
+    spriteID: 681a465924420474397fda32ac68ab4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 40}
+  - name: Kla'ed - Torpedo Ship - Weapons_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.9545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 106
+      width: 56
+      height: 22
+    spriteID: 739622417da92f940b99d9d98f42ff82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 106}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1910544384
+    name: Kla'ed - Torpedo Ship - Weapons
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 05070160fde027c4696db9f9e96976eb
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 6969f746f63fb2e4caadf903e63ba0c9
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 45a49f1dab351c84a8241b064df5431c
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 7f3021298751164418619593a7f8332b
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 28
+      spriteId: ab3fbd8749414d749afc4e890f6e8231
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 30386b413c52f804e9781dc8e608e447
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 28
+      spriteId: 10a84ae80f8fded4eabebb6a453a9fb5
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 0f55085350c8e3241a63dac954ef6c03
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 28
+      spriteId: 91d35d562d0700c43955ff5a5f62158e
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 074fbd2f2fa51e249a192ca7860b2522
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 28
+      spriteId: eaec4c60f97a1244986c3e46722e25b7
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 7db6978a649f67b47b8ae449119b3642
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 28
+      spriteId: 9516c9e23b8c8bf45a850157c2e07781
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 18e6d5bf2ad87ad4dbbf494f5451bd34
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 28
+      spriteId: 681a465924420474397fda32ac68ab4d
+    - name: Kla'ed - Torpedo Ship - Weapons_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 4
+        y: 21
+        width: 56
+        height: 22
+      spriteId: 739622417da92f940b99d9d98f42ff82
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
