@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     }
     public void ShootPowerUp(float newDamege)
     {
-        Debug.Log("hola");
+        speed *= 2;
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {

@@ -5,10 +5,9 @@ using UnityEngine;
 public class Projectile : PowerUp, Interactiv
 {
     public override string skillName => "Burst";
-    public float NweDamage = 5f;
+    public float NewDamage = 5f;
     public void Action(GameObject player)
     {
-        Debug.Log("Skill logic Burst");
-        player.GetComponent<Player>().ShootPowerUp(NweDamage);
+        player.GetComponent<Player>().ShootPowerUp(NewDamage);
     }
 }
