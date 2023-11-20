@@ -5,5 +5,5 @@ using UnityEngine;
 public abstract class PowerUp : MonoBehaviour
 {
     public abstract string skillName { get; }
-    public abstract void Activate();
+    
 }

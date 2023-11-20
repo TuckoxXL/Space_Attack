@@ -17,7 +17,17 @@ public class Player : MonoBehaviour
     {
         GameObject bullet = BulletPool.Instance.RequestBullet();
         bullet.transform.position = transform.position + Vector3.up * bulletOffset;
-
+    }
+    public void ShootPowerUp(float newDamege)
+    {
+        Debug.Log("hola");
+    }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.TryGetComponent<Interactiv>(out Interactiv interactivObject)) 
+        {
+            interactivObject.Action(gameObject);
+        }
     }
     private void AwakeMetod()
     {

@@ -24,6 +24,7 @@ public class Input : MonoBehaviour
     {
         input.Enable();
         input.PlayerControler.Move.performed += OnMovent;
+        input.PlayerControler.Move.canceled += OnMoventCanceled;
         input.PlayerControler.Shoot.performed += OnShoot;
 
     }
@@ -31,12 +32,18 @@ public class Input : MonoBehaviour
     {
         input.Disable();
         input.PlayerControler.Move.performed -= OnMovent;
+        input.PlayerControler.Move.canceled -= OnMoventCanceled;
         input.PlayerControler.Shoot.performed -= OnShoot;
     }
 
     private void OnMovent(InputAction.CallbackContext value)
     {
         moved = value.ReadValue<Vector2>();
+    }
+
+    private void OnMoventCanceled(InputAction.CallbackContext value)
+    {
+        moved = Vector2.zero;
     }
 
     private void OnShoot(InputAction.CallbackContext value)

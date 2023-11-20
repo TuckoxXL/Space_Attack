@@ -28,8 +28,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Debug.Log("Enemy get shooted");
-            gameObject.SetActive(false);
-
+            Destroy(gameObject);
         }
     }
 }
